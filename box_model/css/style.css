@@ -1,12 +1,12 @@
 #main {
-    Background-color: lavender;
+    Background-color: #FF99CCF2;
     Padding: 30px;
 }
 
 #content {
-    Background-color: #6b1acd;
-    Border: 5px solid darkblue;
-    Color: white;
+    Background-color: #FF4DA6;
+    Border: 5px solid #E60073;
+    Color: WHITE;
     Padding: 15px;
     Margin: 15px 0px;
 }
