@@ -1,0 +1,23 @@
+#div_1 {
+    border: 5px solid orange;
+}
+#div_2 {
+    border: 10px dashed pink;
+    padding: 24px;
+}
+#div_3 {
+    border: 24px dotted yellow;
+    padding: 36px;
+    margin: 60px;
+}
+#div_4 {
+    background-color: rgb(245, 201, 121);
+}
+#div_5 {
+    border: 3px dotted thistle;
+    color: gray;
+}
+#div_6 {
+    padding-left: 25px;
+    margin: 50px 12px;
+}
