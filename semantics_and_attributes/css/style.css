@@ -3,10 +3,12 @@ body {
     font-family: sans-serif;
 }
 
+
 header {
     background-color:#F1CCFF;
     padding: 36px;
 }
+
 
 h1 {
     text-align: center;
@@ -15,13 +17,16 @@ h1 {
     color: white;
 }
 
+
 nav a {
     color:white;
 }
 
+
 main {
     color:blueviolet;
 }
+
 
 footer {
     background-color: #F1CCFF;
@@ -29,6 +34,7 @@ footer {
     text-align: center;
     color: white;
 }
+
 
 .card {
     margin: 24px;
