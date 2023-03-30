@@ -25,6 +25,7 @@ nav a {
 
 main {
     color:blueviolet;
+    padding: 21px; 
 }
 
 
@@ -36,9 +37,16 @@ footer {
 }
 
 
-.card {
+div {
     margin: 24px;
     border: 3px solid blueviolet;
     padding: 20px;
     box-shadow: 4px 4px 8px 2px;
+}
+
+#image_container {
+    float:left;
+    border: 3px solid white;
+    box-shadow: 0px 0px 0px 0px;
+    padding-right: 24px;
 }
