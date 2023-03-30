@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color:#F1CCFF;
+    padding: 36px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 48px;
+    color: white;
+}
+
+nav a {
+    color:white;
+}
+
+main {
+    color:blueviolet;
+}
+
+footer {
+    background-color: #F1CCFF;
+    padding: 36px;
+    text-align: center;
+    color: white;
+}
+
+.card {
+    margin: 24px;
+    border: 3px solid blueviolet;
+    padding: 20px;
+    box-shadow: 4px 4px 8px 2px;
+}
