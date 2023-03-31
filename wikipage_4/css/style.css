@@ -1,0 +1,40 @@
+/* Direction */
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+/*Images */
+.wiki_image {
+    width: 250px;
+    border: 1px solid gray;
+    background-color: lightgray;
+    padding: 4px;
+    margin: 12px;
+}
+
+.wiki_image img {
+    width: 100%;
+}
+
+/* Italic & Bold & Indent */
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.indent {
+    margin: 10px;
+}
+
+.indent2 {
+    margin: 35px;
+}
+
