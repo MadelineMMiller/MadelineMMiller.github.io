@@ -1,0 +1,42 @@
+#desktop,
+#tablet,
+#mobile {
+    padding: 100px;
+    font-size: 36px;
+    text-align: center;
+}
+
+#desktop {
+    background-color: lightpink;
+}
+#tablet {
+    background-color: lightyellow;
+}
+#mobile {
+    background-color: orange;
+}
+
+/* Desktop Breakpoint */
+@media screen and (min-width: 1000px) {
+    #tablet,
+    #mobile {
+        display: none;
+    }
+}
+
+/* Tablet Breakpoint */
+@media screen and (max-width: 850px)
+    and (min-width: 768px) {
+    #desktop,
+    #mobile {
+        display: none;
+    }
+}
+
+/* Mobile Breakpoint */
+@media screen and (max-width: 767px) {
+    #desktop,
+    #tablet {
+        display: none;
+    }
+}
