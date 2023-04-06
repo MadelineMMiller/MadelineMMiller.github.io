@@ -143,5 +143,30 @@ li a{
 #icecream {
     font-family: arial;
     margin: 12px;
-    text-align: center;
+}
+
+
+/* Desktop breakpoint */
+@media screen and (min-width: 1280px) {
+    #tablet,
+    #mobile {
+        display: none;
+    }
+}
+
+/* Tablet breakpoint */
+@media screen and (max-width: 1279px)
+    and (min-width: 768px) {
+    #desktop,
+    #mobile {
+        display: none;
+    }
+}
+
+/* Mobile breakpoint */
+@media screen and (max-width: 767px) {
+    #desktop,
+    #tablet {
+        display: none;
+    }
 }
