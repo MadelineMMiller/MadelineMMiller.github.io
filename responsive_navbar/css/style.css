@@ -28,7 +28,7 @@ li a{
     font-family: Arial;
 }
 
-/* Tags */
+/* Dropdown */
 .dropdown_container {
     position: relative;
 }
@@ -51,7 +51,7 @@ li a{
     top: 100%;
 }
 
-/* Direct Tags */
+/* Home Page Id's & Class's */
 
 #logo {
     margin-right: auto;
@@ -74,7 +74,7 @@ li a{
 }
 
 
-/* FAQ */
+/* FAQ Page Id's & Class's */
 
 #heading2 {
     font-family: arial;
@@ -92,7 +92,7 @@ li a{
     margin: 22px;
 }
 
-/* Hours & Locations */
+/* Hours & Locations Page Id's & Class's */
 
 .hours_locations {
     text-align: center;
@@ -114,16 +114,12 @@ li a{
     width: 100%;
 }
 
-.right {
-    float: right;
-}
-
 .location {
     width: 400px;
     padding: 4px;
     margin: 4px;
     border: 3px solid #FF66FF;
-    background-color: #FFCCFF
+    background-color: #FFCCFF;
 }
 
 .location img {
@@ -145,28 +141,38 @@ li a{
     margin: 12px;
 }
 
+/* Front Page Extras */
 
-/* Desktop breakpoint */
-@media screen and (min-width: 1280px) {
-    #tablet,
-    #mobile {
-        display: none;
-    }
+.front_page_image {
+    width: 200px;
+    padding: 4px;
+    margin: 4px;
+    border: 3px solid #FF66FF;
+    background-color: #FFCCFF;
 }
 
-/* Tablet breakpoint */
-@media screen and (max-width: 1279px)
-    and (min-width: 768px) {
-    #desktop,
-    #mobile {
-        display: none;
-    }
+.front_page_image img {
+    width: 100%;
 }
 
-/* Mobile breakpoint */
-@media screen and (max-width: 767px) {
-    #desktop,
-    #tablet {
-        display: none;
+.list {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#pheading {
+    font-family: arial;
+    margin: 10px;
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 768px){
+    ul {
+        flex-direction: column;
     }
 }
