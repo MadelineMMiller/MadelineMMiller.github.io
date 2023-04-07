@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    font-family: varela_round;
+}
+
+tr {
+    border-bottom: 1px solid #e6e6e6;
+    
+}
+
+thead tr {
+    background-color: rgb(23, 151, 128)
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#color {
+    color: white;
+}
