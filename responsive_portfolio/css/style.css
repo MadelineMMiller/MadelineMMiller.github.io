@@ -174,7 +174,7 @@ footer ul {
 }
 
 #hero a,
-.card {
+.card a {
     background-color: white;
     color: indigo;
     border: 2px solid indigo;
@@ -187,7 +187,7 @@ footer ul {
 }
 
 #hero a:hover
-.card {
+.card a {
     transform: scale(1.1);
 }
 
@@ -239,5 +239,15 @@ footer ul {
     }
     nav {
         flex-direction: column;
+    }
+
+    #three_cards,
+    #two_cards {
+        flex-direction: column;
+    }
+
+    .card {
+        align-items: center;
+        margin: 36px 24px 0px;
     }
 }
