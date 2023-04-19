@@ -21,6 +21,19 @@
     background-color: lightblue;
 }
 
+
+/* This is how you would get an invalid text box to change color */
+#first_name_id:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+
+/* This is how you would get a valid text box to change color, it typically is not used much */
+#first_name_id:valid {
+    background-color: lightgreen;
+    border-bottom: 4px solid green;
+}
+
 #last_name_id {
     border: 5px solid lightgreen;
     border-radius: 24px;
@@ -107,3 +120,4 @@ input [type=submit]:hover {
 input[type=submit]:active {
     background: linear-gradient(to top, pink, red);
 }
+

@@ -18,6 +18,7 @@
                     <div id="wcwhyw">
                         <label for="wcwhyw_id">What can we help you with?</label>
                         <select id="wcwhyw_id" name="wcwhyw">
+                            <option value="select">Select what we can help you with...</option>
                             <option value="menu">Menu</option>
                             <option value="hours_and_locations">Hours And Locations</option>
                             <option value="allergy_concerns">Allergy Concerns</option>
@@ -38,6 +39,7 @@
                     <div id="email" class="text_input">
                         <label for="code_feelings_id">Email</label>
                         <input type="email"
+                        required
                         id="email_id" 
                         name="email"
                         placeholder="Type your email here">
@@ -47,14 +49,18 @@
 
                     <div id="phone_number" class="text_input">
                         <label for="phone_number_id">Phone Number</label>
-                        <input type="text" id="phone_number_id" name="phone_number">
+                        <input type="text" id="phone_number_id" name="phone_number" minlength="10">
                     </div>
                     <br>
                     <br>
 
                     <div id="message" class="text_input">
                         <label for="message_id">Message</label>
-                        <textarea id="message_id" name="message"></textarea>
+                        <textarea 
+                        id="message_id" 
+                        ame="message" 
+                        required
+                        maxlength="700"></textarea>
                     </div>
                     <br>
                     <br>
@@ -66,7 +72,7 @@
                     <br>
                     <br>
 
-                    <input type="send" value="Send" id="button">
+                    <input type="submit" value="Submit Everything">
                 </form>
             </main>
         </section>

@@ -70,6 +70,21 @@ form {
     font-family: sans-serif;
 }
 
+#phone_number_id:invalid {
+    background-color: #ffcce0;
+}
+
+#message_id:invalid {
+    background-color: #ffcce0;
+}
+
+#heading {
+    color:#ffb3d1;
+}
+
+#paragraph {
+    color:#ffb3d1;
+}
 
 /* Id's */
 
@@ -98,15 +113,20 @@ form {
 }
 
 
-input[type=send] {
+input[type=submit] {
     border: 1px solid pink;
     border-radius: 6px;
     padding: 12px;
     margin-right: 12px;
     background: linear-gradient(to bottom, #ffcce0, #ff80b3);
-    color: black;
+    color: white;
 }
 
-input[type=send]:active {
-    background: linear-gradient(to top, #ffcce0, #ff80b3);
+input[type=submit]:active {
+    background: linear-gradient(to bottom, #ffcce0, #ff80b3);
+}
+
+select {
+    width: 100%;
+    padding: 12px;
 }
