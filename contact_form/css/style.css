@@ -1,0 +1,112 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas: 
+        ". header_area ."
+        ". main_area .";
+}
+
+header {
+    grid-area: header_area;
+}
+
+main {
+    grid-area: main_area;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+form {
+    background-color: white;
+    border: 2px solid #CCCCCC;
+    padding: 36px;
+}
+
+/* Detailing */
+
+#heading {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#paragraph {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#button {
+    background-color: #ffb3d1;
+    color: white;
+    border: #ffb3d1;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+#name {
+    font-family: sans-serif;
+}
+
+#wcwhyw {
+    font-family: sans-serif;
+}
+
+#message {
+    font-family: sans-serif;
+}
+
+#email {
+    font-family: sans-serif;
+}
+
+#phone_number {
+    font-family: sans-serif;
+}
+
+#suggestions_and_complaints {
+    font-family: sans-serif;
+}
+
+
+/* Id's */
+
+#message_id {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+#email_id {
+    width: 100%;
+}
+
+#name_id {
+    width: 100%;
+}
+
+#phone_number_id {
+    width: 100%;
+}
+
+#suggestions_and_complaints_id {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+
+input[type=send] {
+    border: 1px solid pink;
+    border-radius: 6px;
+    padding: 12px;
+    margin-right: 12px;
+    background: linear-gradient(to bottom, #ffcce0, #ff80b3);
+    color: black;
+}
+
+input[type=send]:active {
+    background: linear-gradient(to top, #ffcce0, #ff80b3);
+}
