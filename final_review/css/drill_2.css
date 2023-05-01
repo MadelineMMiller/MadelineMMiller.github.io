@@ -1,0 +1,34 @@
+/* Task 4 - Write your code solution below */
+#t4_container {
+    padding-left: 100px;
+}
+/* Use padding-left to shift the box within the container, 
+   it expands the container automatically because that is what we are targeting */
+
+
+
+/* Task 5 - Write your code solution below */
+#t5_container {
+    padding-right: 100px;
+}
+/* Use padding-right to shift the box within the container,
+   it expands the container automatically because that is what we are targeting */
+
+
+
+/* Task 6 - Write your code solution below */
+#t6_container {
+    padding-top: 100px;
+}
+/* Use paddint-top to shift the box within the container,
+   it expands the container automatically because that is what we are targeting */
+
+
+
+/* Task 7 - Write your code solution below */
+#t7_container {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+/* Since there is no padding-bottom-right, you have to combine different 
+   directions */

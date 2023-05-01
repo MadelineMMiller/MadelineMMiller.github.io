@@ -1,0 +1,30 @@
+/* Task 1 - Write your code solution below */
+.t1_div {
+    display: inline;
+}
+/* To make the boxes slimmer and in a row, target the 
+   divs and add display: inline */
+
+
+
+/* Task 2 - Write your code solution below */
+.t2_span {
+    display: block;
+}
+/* To make the boxes longer, target the span and add
+   display: block; */
+
+
+
+/* Task 3 - Write your code solution below */
+.t3_span_red {
+    display: block;
+}
+
+.t3_span_blue {
+    display: inline-block;
+}
+
+/* Target the group by using a class and use display: block to 
+   make them go across the page. For the blue blox, use display: inline-block
+   because it gives margin while display: inline does not */

@@ -1,0 +1,107 @@
+/* TO MAKE ANYTHING INTO A GRID, YOU MUST START WITH DISPLAY: GRID */
+
+/* Task 14 - Write your code solution below */
+#t14_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* Do not forget, fr is a fraction. 1fr 1 fr splits the columns into 2 */
+
+
+/* Task 15 - Write your code solution below */
+#t15_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+/* Different fr changes the length of the columns. For example,
+   using 5fr is gonna be 5 times the length of 1fr */
+
+
+/* Task 16 - Write your code solution below */
+#t16_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "one two three";
+}
+
+#t16_cell_1 {
+    grid-area: one;
+}
+#t16_cell_2 {
+    grid-area: two;
+}
+#t16_cell_3 {
+    grid-area: three;
+}
+
+
+/* Task 17 - Write your code solution below */
+#t17_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "two three one";
+}
+
+#t17_cell_1 {
+    grid-area: one;
+}
+#t17_cell_2 {
+    grid-area: two;
+}
+#t17_cell_3 {
+    grid-area: three;
+}
+/* Note....the difference between 17 and 16 is the grid template areas */
+
+
+/* Task 18 - Write your code solution below */
+#t18_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "one one one"
+    "three two two";
+}
+#t18_cell_1 {
+    grid-area: one;
+}
+#t18_cell_2 {
+    grid-area: two;
+}
+#t18_cell_3 {
+    grid-area: three;
+}
+
+
+/* Task 19 - Write your code solution below */
+#t19_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#t19_container img {
+    width: 100%;
+    box-sizing: border-box;
+}
+/* Box sizing and border box help fit the image better */
+
+
+/* Task 20 - Write your code solution below */
+#t20_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "one two "
+        "three three";
+}
+
+#t20_cell_1 {
+    grid-area: one;
+}
+
+#t20_cell_2 {
+    grid-area: two;
+}
+
+#t20_cell_3 {
+    grid-area: three;
+}
